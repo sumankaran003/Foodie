@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "657054373364",
+    "firebase_url": "https://foodka-9759b.firebaseio.com",
+    "project_id": "foodka-9759b",
+    "storage_bucket": "foodka-9759b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:657054373364:android:7fe732feede4003b",
+        "android_client_info": {
+          "package_name": "in.karan.suman.foodka"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "657054373364-9873dvbqrrpcjm91neg1d80cavujjlth.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.karan.suman.foodka",
+            "certificate_hash": "1e716c409ebdf88f9c85fe5d4e4081f8140448db"
+          }
+        },
+        {
+          "client_id": "657054373364-vntfapc7d4b4cr1p6v277m7sif81hldp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAG_kH_PbmCQd3oeD1lUY6Gk_1WIJ3HUEI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "657054373364-vntfapc7d4b4cr1p6v277m7sif81hldp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

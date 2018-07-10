@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/redirect"
+    android:layout_height="match_parent"
+    tools:context="in.karan.suman.foodka.SignIn">
+
+    <LinearLayout
+        android:paddingLeft="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginRight="8dp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="8dp"
+        >
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edtPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone Number"
+            android:textColorHint="#ffffff"
+            android:textSize="34sp"
+            android:text="99999"
+            android:textColor="#ffffff"
+            android:inputType="number"
+            app:met_baseColor="@android:color/white"
+            app:met_floatingLabel="highlight"
+            app:met_maxCharacters="11"
+            app:met_primaryColor="#ffffff"
+            app:met_singleLineEllipsis="true"
+
+            />
+
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edtPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:textColorHint="#ffffff"
+            android:textSize="34sp"
+            android:text="1234"
+            android:textColor="#ffffff"
+            android:inputType="textPassword"
+            app:met_baseColor="@android:color/white"
+            app:met_floatingLabel="highlight"
+            app:met_maxCharacters="11"
+            app:met_primaryColor="#ffffff"
+            app:met_singleLineEllipsis="true"
+
+            />
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:weightSum="2"
+           android:orientation="horizontal">
+           <com.rey.material.widget.CheckBox
+               android:id="@+id/ckbRemember"
+               android:layout_width="0dp"
+               android:layout_weight="1"
+               android:layout_height="wrap_content"
+               style="@style/Material.Drawable.CheckBox"
+               android:text="Remember Me"
+               android:textColor="#ffffff"
+               app:cbd_strokeColor="#ffffff"
+               android:gravity="center_vertical"
+
+               />
+
+           <TextView
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               android:textColor="#ffffff"
+               android:id="@+id/txtForgotPassword"
+               android:text="@string/forgot_pwd"
+               />
+       </LinearLayout>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSignIn"
+        android:text="Sign In"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        android:layout_alignParentBottom="true"
+        android:backgroundTint="@color/btnSignActive"
+        android:layout_height="wrap_content"
+        />
+
+</RelativeLayout>
